@@ -10,4 +10,7 @@
 
 @interface CalculatorViewController : UIViewController
 
+- (IBAction)test:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *display;
+
 @end
